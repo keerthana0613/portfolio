@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ece8;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #94cb7a; /* Indigo */
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #f5f9fa;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #222021; /* Dark Turquoise */
+}
+
+section {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  background: #fdfdfd;
+  margin-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(75, 0, 130, 0.08); /* Softer indigo shadow */
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #4B0082;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.project, .skill {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #4B0082;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2f2f4f; /* dark purple/indigo */
+  color: #ffffff;
+  margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+}
